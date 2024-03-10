@@ -20,3 +20,8 @@ def json_to_dataframe(data_entrada):
 
     df = pd.DataFrame(places)
     return df
+
+def correlacion(df1,df2):
+
+    
+    return df1.corrwith(df2)
